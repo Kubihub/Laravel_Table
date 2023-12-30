@@ -16,17 +16,12 @@ class NameFactory extends Factory
      */
     public function definition()
     {
-        return [
-            //
-            public function definition()
-     {
+        
          return [
              'title' => $this->faker->sentence,
              'content' => $this->faker->paragraph,
              'deleted_at' => null,
          ];
-     }
-
-        ];
+   
     }
 }

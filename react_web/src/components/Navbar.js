@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from './images/pic.jpg'
 
 const Navbar = () => {
   return (
@@ -14,7 +15,7 @@ const Navbar = () => {
             
         </ul>
         <div>
-            <img src='' />
+            <img src='.\images\pic.jpg' alt='image available'/>
         </div>
     </div>
   )
